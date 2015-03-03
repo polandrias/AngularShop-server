@@ -1,0 +1,8 @@
+<div class="filter">
+	<h2>Filter</h2>
+	<ul>
+		<li ng-repeat="category in categories">
+			<input type="checkbox" ng-click="categoryChange(category.name)" /> {{ category.name }}
+		</li>
+	</ul>
+</div>
